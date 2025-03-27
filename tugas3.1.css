@@ -1,0 +1,19 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+fieldset {
+  padding: 3%;
+}
+legend {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+  font-weight: 100;
+}
+form {
+  width: 45%;
+  height: 60%;
+}
