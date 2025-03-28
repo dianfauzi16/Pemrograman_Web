@@ -2,63 +2,85 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background-color: #f8f8f8;
+  background-color: #f4f4f4;
 }
-
-.resume-container {
-  display: flex;
-  width: 800px;
+.container {
+  width: 80%;
+  margin: 50px auto;
   background: white;
+  outline: 10px solid rgb(185, 185, 185);
   padding: 20px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  position: relative;
 }
-
-.left-section {
-  width: 60%;
-  padding: 20px;
-}
-
-.job-title {
+.vertical-text {
+  position: relative;
+  transform: rotate(270deg);
+  font-size: 60px;
   font-weight: bold;
-  color: #555;
+  color: #666;
+  display: flex;
+  width: 10%;
+  justify-content: center;
 }
-
-.description {
-  color: #777;
-  line-height: 1.6;
+.left {
+  width: 50%;
+  padding: 20px;
+  position: relative;
 }
-
-.portfolio-btn {
-  background-color: blue;
-  color: white;
-  padding: 10px 15px;
-  border: none;
-  cursor: pointer;
+.right {
+  width: 50%;
+  padding: 30px;
+  text-align: center;
+}
+.right img {
+  margin-left: auto;
+  display: block;
+  width: 100px;
+  height: 100px;
+  border: 3px double gray;
+}
+h1 {
+  margin: 0;
+  font-size: 36px;
+}
+h2{
+  font-weight: normal;
+  color: #666;
+  font-size: 18px;
+}
+h3 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 12px;
+  color: #666;
+  font-weight: normal;
+}
+.about {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 14px;
+  color: #666;
   margin-top: 10px;
 }
-
-.right-section {
-  width: 40%;
-  text-align: center;
-  padding: 20px;
-}
-
-.profile-photo {
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
-}
-
 .info {
+  background: #f9f9f9;
+  padding: 10px;
+  margin-top: 20px;
+  font-size: 14px;
+  font-family: 'Times New Roman', Times, serif;
+  color: #666;
   text-align: left;
+}
+.btn {
+  display: inline-block;
+  background: blue;
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 30px;
   margin-top: 15px;
 }
-
-.info p {
-  margin: 5px 0;
-  font-size: 14px;
+strong{
+color: black;
+font-family: Arial, Helvetica, sans-serif;
 }
